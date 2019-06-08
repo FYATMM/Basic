@@ -5,4 +5,22 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ArrRefOut\ArrRefOut.csproj" />
+    <ProjectReference Include="..\EncapsulateField\RefactoryingEncapsulateField.csproj" />
+    <ProjectReference Include="..\Enum\Enum.csproj" />
+    <ProjectReference Include="..\ExtendMethod\ExtendMethod.csproj" />
+    <ProjectReference Include="..\NullForValues\NullForValues.csproj" />
+    <ProjectReference Include="..\out\outP.csproj" />
+    <ProjectReference Include="..\RefactAnonymousMethod\RefactoringMethod.csproj" />
+    <ProjectReference Include="..\RefactoringExtractionInterface\RefactoringExtractionInterface.csproj" />
+    <ProjectReference Include="..\RefactoringName\RefactoringName.csproj" />
+    <ProjectReference Include="..\RefactoringReorderParameters\RefactoringReorderParameters.csproj" />
+    <ProjectReference Include="..\RefactoryingRemoveParameterDemo\RefactoryingRemoveParameter.csproj" />
+    <ProjectReference Include="..\ref\refP.csproj" />
+    <ProjectReference Include="..\StructIsValueType\StructIsValueType.csproj" />
+    <ProjectReference Include="..\StructOverrideToString\StructOverrideToString.csproj" />
+    <ProjectReference Include="..\UseStructConvertType\UseStructConvertType.csproj" />
+  </ItemGroup>
+
 </Project>

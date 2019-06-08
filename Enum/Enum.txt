@@ -1,0 +1,3 @@
+﻿值类型，包含一组命名的常量
+默认类型int，可在定义时指明为byte，short，long，
+	public enum Color : short
